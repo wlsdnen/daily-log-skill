@@ -1,5 +1,10 @@
 [English](README.md) | [한국어](README.ko.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blue)](https://claude.ai/code)
+![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey)
+[![Version](https://img.shields.io/badge/Version-2.1.0-green.svg)](CHANGELOG.md)
+
 ---
 
 # 📝 daily-log
