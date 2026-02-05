@@ -31,19 +31,19 @@
 
 **한 줄 설치:**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/jwcho/daily-log-skill/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/wlsdnen/daily-log-skill/main/install.sh | bash
 ```
 
 **또는 수동 설치:**
 ```bash
 mkdir -p ~/.claude/skills/daily-log
 curl -o ~/.claude/skills/daily-log/SKILL.md \
-  https://raw.githubusercontent.com/jwcho/daily-log-skill/main/SKILL.md
+  https://raw.githubusercontent.com/wlsdnen/daily-log-skill/main/SKILL.md
 ```
 
 **또는 클론 후 설치:**
 ```bash
-git clone https://github.com/jwcho/daily-log-skill.git
+git clone https://github.com/wlsdnen/daily-log-skill.git
 cd daily-log-skill
 ./install.sh
 ```
@@ -57,7 +57,7 @@ cd daily-log-skill
 # 다운로드: https://git-scm.com/download/win
 
 # 2. Git Bash를 열고 설치 명령어 실행
-curl -fsSL https://raw.githubusercontent.com/jwcho/daily-log-skill/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/wlsdnen/daily-log-skill/main/install.sh | bash
 
 # 3. (선택적) 더 나은 성능을 위해 jq 설치
 # 다운로드: https://github.com/stedolan/jq/releases/latest/download/jq-win64.exe

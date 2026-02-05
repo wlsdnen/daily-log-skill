@@ -31,19 +31,19 @@ Never miss documenting your work again. `daily-log` automatically detects what y
 
 **One-line install:**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/jwcho/daily-log-skill/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/wlsdnen/daily-log-skill/main/install.sh | bash
 ```
 
 **Or manual install:**
 ```bash
 mkdir -p ~/.claude/skills/daily-log
 curl -o ~/.claude/skills/daily-log/SKILL.md \
-  https://raw.githubusercontent.com/jwcho/daily-log-skill/main/SKILL.md
+  https://raw.githubusercontent.com/wlsdnen/daily-log-skill/main/SKILL.md
 ```
 
 **Or clone and install:**
 ```bash
-git clone https://github.com/jwcho/daily-log-skill.git
+git clone https://github.com/wlsdnen/daily-log-skill.git
 cd daily-log-skill
 ./install.sh
 ```
@@ -57,7 +57,7 @@ cd daily-log-skill
 # Download from: https://git-scm.com/download/win
 
 # 2. Open Git Bash and run the installation command
-curl -fsSL https://raw.githubusercontent.com/jwcho/daily-log-skill/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/wlsdnen/daily-log-skill/main/install.sh | bash
 
 # 3. (Optional) Install jq for better performance
 # Download from: https://github.com/stedolan/jq/releases/latest/download/jq-win64.exe

@@ -25,10 +25,10 @@ if [ ! -f "SKILL.md" ]; then
   
   if command -v curl &> /dev/null; then
     curl -fsSL -o ~/.claude/skills/daily-log/SKILL.md \
-      https://raw.githubusercontent.com/jwcho/daily-log-skill/main/SKILL.md
+      https://raw.githubusercontent.com/wlsdnen/daily-log-skill/main/SKILL.md
   elif command -v wget &> /dev/null; then
     wget -q -O ~/.claude/skills/daily-log/SKILL.md \
-      https://raw.githubusercontent.com/jwcho/daily-log-skill/main/SKILL.md
+      https://raw.githubusercontent.com/wlsdnen/daily-log-skill/main/SKILL.md
   else
     echo "❌ Error: Neither curl nor wget found"
     echo "   Please install curl or wget, or run from cloned repository"
@@ -50,7 +50,7 @@ if [ -f ~/.claude/skills/daily-log/SKILL.md ]; then
   echo "   2. Say: 'Create daily log'"
   echo ""
   echo "📖 Documentation:"
-  echo "   - README: https://github.com/jwcho/daily-log-skill"
+  echo "   - README: https://github.com/wlsdnen/daily-log-skill"
   echo "   - Migration Guide: MIGRATION-GUIDE.md"
   echo ""
   echo "💡 First use will capture last 7 days of work"
