@@ -1,0 +1,24 @@
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Generated content
+daily-notes/
+
+# Development artifacts
+.omc/
+*.log
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# Node modules (if any)
+node_modules/
+
+# Python
+__pycache__/
+*.pyc

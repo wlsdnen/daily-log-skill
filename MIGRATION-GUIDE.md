@@ -8,6 +8,26 @@
 
 ---
 
+## What's New in v2.1 (Language & Auto-Generation)
+
+### New: Auto-Generation Mode
+
+**v2.0 behavior**: Asked 5 questions per activity (What, How, Why, Effect, Issues)
+**v2.1 behavior**: AI automatically generates all content by analyzing git commits, diffs, and code
+
+No migration needed - just use it! If you want the old question-based mode, add `--interactive` flag.
+
+### New: Automatic Language Detection
+
+**How it works**:
+- "Create daily log" → English log
+- "오늘 작업 기록해줘" → Korean log (한국어)
+- "今日の作業記録を作成" → Japanese log (日本語)
+
+No configuration needed - language is detected from your request message.
+
+---
+
 ## What Changed
 
 ### Removed: Profile System (v1.x)
